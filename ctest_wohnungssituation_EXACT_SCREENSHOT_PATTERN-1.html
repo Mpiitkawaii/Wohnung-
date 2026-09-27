@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>C-Test – Wohnungssituation in Mainz und Wiesbaden</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:"Trebuchet MS",Arial,sans-serif;color:#40364e;background:radial-gradient(circle at 8% 10%,#ffd9ed 0 7%,transparent 22%),radial-gradient(circle at 92% 18%,#d9e8ff 0 8%,transparent 23%),radial-gradient(circle at 18% 90%,#fff0b9 0 7%,transparent 20%),linear-gradient(135deg,#fff8fc,#eef5ff);min-height:100vh}
+header{padding:22px 16px;text-align:center;color:#fff;background:linear-gradient(90deg,#ff7faf,#a67bea,#71c8ff);box-shadow:0 5px 20px #78608b33}header h1{margin:0 0 5px;font-size:clamp(24px,5vw,38px)}header p{margin:0;font-size:14px}
+.container{width:min(1000px,94%);margin:24px auto 50px}.card{background:#ffffffed;border:3px solid #efdef0;border-radius:26px;padding:23px;margin-bottom:22px;box-shadow:0 10px 30px #624c801f}.title{display:flex;gap:14px;align-items:center}.emoji{font-size:42px}h2{margin:0;color:#7650b7}.subtitle{margin-top:5px;color:#81758d;font-size:14px}
+.instructions{margin:18px 0;padding:14px 16px;border-radius:17px;background:#fff6d5;border:2px dashed #e5bd52;line-height:1.55}.ctest{background:#fbf9ff;border:2px solid #e7ddf6;border-radius:21px;padding:21px;font-size:18px;line-height:2.25}.blank{display:inline-flex;vertical-align:middle;margin:0 2px}.blank input{width:72px;border:2px solid #cdbbea;border-radius:10px;padding:5px 6px;background:white;text-align:center;font:inherit;font-size:17px;color:#493c58;outline:none}.blank input:focus{border-color:#9870dc;box-shadow:0 0 0 4px #9870dc20}.blank.correct input{border-color:#52b982;background:#eafff2}.blank.wrong input{border-color:#ef7187;background:#fff0f3}
+.actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:19px}button{border:0;border-radius:15px;padding:11px 18px;font-weight:bold;font-size:15px;cursor:pointer;transition:.2s}button:hover{transform:translateY(-2px)}.submit{color:#fff;background:linear-gradient(90deg,#ff70a9,#9970df)}.reset{background:#eaf1ff;color:#5b6b98}#result{display:none;margin-top:17px;padding:15px;border-radius:17px;background:linear-gradient(135deg,#f4e9ff,#fff1f8);border:2px solid #dec8f2}
+.section{display:none}.explain{padding:14px 15px;margin:11px 0;border-radius:16px;background:#faf8ff;border:2px solid #eee4fa}.explain.wrong{background:#fff7f8;border-color:#ffc5cf}.explain.correct{background:#f5fff9;border-color:#bfe9d1}.tag{display:inline-block;padding:4px 9px;border-radius:999px;background:#eadcff;color:#684ba0;font-size:12px;font-weight:bold}.explain h3{margin:8px 0 4px;color:#7650b7}.quiz{background:linear-gradient(135deg,#fff0f8,#edf7ff)}.q{background:white;border:2px solid #e7ddef;border-radius:17px;padding:15px;margin:12px 0}.option{display:block;width:100%;text-align:left;margin-top:8px;background:white;border:2px solid #ddd4e7;color:#493d57;font-weight:normal}.option.selected{border-color:#9870df;background:#f1eaff}.option.correct{border-color:#54b884;background:#eafff2}.option.wrong{border-color:#ef7187;background:#fff0f3}#quizResult{display:none;margin-top:15px;padding:13px;border-radius:15px;background:#fff;font-weight:bold}.small{font-size:13px;color:#7e7188}footer{text-align:center;color:#887b94;font-size:13px;margin-top:18px}
+@media(max-width:600px){.card{padding:16px}.ctest{padding:14px;font-size:16px;line-height:2.4}.blank input{width:60px;font-size:15px}}
+</style>
+</head>
+<body>
+<header><h1>🌸 Deutsch C-Test 🌸</h1><p>Deutsch Quest • B1 + sedikit B2 ✨</p></header>
+<main class="container">
+<section class="card">
+<div class="title"><div class="emoji">🏠</div><div><h2>Wohnungssituation in Mainz und Wiesbaden</h2><div class="subtitle">C-Test • 20 Lücken • pola soal mengikuti screenshot</div></div></div>
+<div class="instructions">💡 <b>Petunjuk:</b> Lengkapi bagian akhir kata yang hilang. Bagian awal kata tetap terlihat, persis seperti pola soal pada screenshot.</div>
+
+<div class="ctest" id="ctest">
+Die Wohnungssituation für Studenten in Mainz und Wiesbaden hat sich in den letzten Jahren drastisch verschlechtert.<br><br>
+
+Nachdem e<span class="blank"><input data-id="1" data-answer="in"></span>
+großes deut<span class="blank"><input data-id="2" data-answer="sches"></span>
+Nachrichtenmagazin d<span class="blank"><input data-id="3" data-answer="ie"></span>
+Universität Mainz z<span class="blank"><input data-id="4" data-answer="ur"></span>
+zweitbeliebtesten Universi<span class="blank"><input data-id="5" data-answer="tätsstadt"></span>
+in ga<span class="blank"><input data-id="6" data-answer="nz"></span>
+Deutschland gew<span class="blank"><input data-id="7" data-answer="ählt"></span>
+hatte, ha<span class="blank"><input data-id="8" data-answer="ben"></span>
+sich se<span class="blank"><input data-id="9" data-answer="hr"></span>
+viel me<span class="blank"><input data-id="10" data-answer="hr"></span>
+Studenten a<span class="blank"><input data-id="11" data-answer="ls"></span>
+bisher u<span class="blank"><input data-id="12" data-answer="m"></span>
+einen Studie<span class="blank"><input data-id="13" data-answer="nplatz"></span>
+in Mainz bewo<span class="blank"><input data-id="14" data-answer="rben"></span>.<br><br>
+
+Das Erge<span class="blank"><input data-id="15" data-answer="bnis"></span>
+sind stei<span class="blank"><input data-id="16" data-answer="gende"></span>
+Mieten u<span class="blank"><input data-id="17" data-answer="nd"></span>
+fehlender Wohn<span class="blank"><input data-id="18" data-answer="raum"></span>.<br><br>
+
+Die Unive<span class="blank"><input data-id="19" data-answer="rsität"></span>
+und d<span class="blank"><input data-id="20" data-answer="ie"></span>
+Studentenvertretung AStA (Allgemeiner Studierendenausschuss) hoffen auf eine
+deutliche Entspannung zum kommenden Sommersemester.
+</div>
+
+<div class="actions"><button class="submit" onclick="submitCTest()">✨ C-Test abgeben</button><button class="reset" onclick="resetCTest()">↻ Reset</button></div>
+<div id="result"></div>
+</section>
+
+<section class="card section" id="explanationCard"><h2>📚 Pembahasan Jawaban</h2><p class="small">Penjelasan Bahasa Indonesia untuk setiap bagian yang diuji.</p><div id="explanations"></div></section>
+
+<section class="card quiz section" id="quizCard"><h2>🧠 Vocabulary Quiz</h2><p>Quiz kosakata dari tema ini setelah C-Test.</p><div id="quizContainer"></div><button class="submit" onclick="checkQuiz()">🎀 Cek Quiz</button><div id="quizResult"></div></section>
+<footer>🌷 Tipp: lihat konteks dan bentuk katanya sebelum menerjemahkan.</footer>
+</main>
+
+<script>
+const explanations={
+1:{w:"ein",t:"Artikel",x:"Kalimat lengkapnya <b>Nachdem ein großes deutsches Nachrichtenmagazin ...</b>. 'Nachrichtenmagazin' bersifat netral (das), sehingga setelah 'Nachdem' digunakan artikel tak tentu <b>ein</b>."},
+2:{w:"deutsches",t:"Adjektivendung",x:"<b>deutsches Nachrichtenmagazin</b>. 'Nachrichtenmagazin' netral dan setelah 'ein', sehingga adjektif mendapat akhiran <b>-es</b>."},
+3:{w:"die",t:"Artikel",x:"<b>die Universität Mainz</b>. 'Universität' adalah feminin, jadi artikelnya <b>die</b>."},
+4:{w:"zur",t:"Präposition + Artikel",x:"<b>zur</b> = <b>zu + der</b>. Struktur yang benar adalah 'die Universität Mainz zur zweitbeliebtesten Universitätsstadt wählen'."},
+5:{w:"tätsstadt",t:"Wortbildung",x:"Kata lengkapnya <b>Universitätsstadt</b> = kota universitas. Setelah 'Universi' tersisa <b>tätsstadt</b>."},
+6:{w:"nz",t:"Wortbildung",x:"Kata lengkapnya <b>ganz</b>. Setelah 'ga' diperlukan <b>nz</b>."},
+7:{w:"ählt",t:"Verb / Partizip II",x:"Kata kerjanya <b>wählen</b>. Partizip II-nya <b>gewählt</b>, sehingga setelah 'gew' diperlukan <b>ählt</b>."},
+8:{w:"ben",t:"Hilfsverb",x:"Bagian ini adalah <b>haben</b>. Karena subjeknya 'sehr viel mehr Studenten', bentuk pluralnya adalah <b>haben</b>."},
+9:{w:"hr",t:"Adverb",x:"Ungkapannya <b>sehr viel mehr</b>. Setelah 'se' diperlukan <b>hr</b> untuk membentuk <b>sehr</b>."},
+10:{w:"hr",t:"Komparativ",x:"<b>mehr</b> berarti 'lebih banyak'. Polanya di sini <b>sehr viel mehr Studenten</b>."},
+11:{w:"ls",t:"Vergleich",x:"Pola perbandingan adalah <b>mehr ... als</b>: 'viel mehr Studenten <b>als</b> bisher'."},
+12:{w:"m",t:"Präposition",x:"Strukturnya <b>sich um einen Studienplatz bewerben</b>. Jadi setelah 'u' yang hilang adalah <b>m</b>, membentuk <b>um</b>."},
+13:{w:"nplatz",t:"Wortbildung",x:"Kata lengkapnya <b>Studienplatz</b> = tempat kuliah. Setelah 'Studie' diperlukan <b>nplatz</b>."},
+14:{w:"rben",t:"Verb",x:"Kata kerjanya <b>sich bewerben</b>. Dalam Perfekt: <b>haben sich ... beworben</b>. Setelah 'bewo' diperlukan <b>rben</b>."},
+15:{w:"bnis",t:"Nomen",x:"Kata lengkapnya <b>das Ergebnis</b> = hasil. Setelah 'Erge' diperlukan <b>bnis</b>."},
+16:{w:"gende",t:"Partizip als Adjektiv",x:"<b>steigende Mieten</b> berarti harga sewa yang meningkat. Setelah 'stei' diperlukan <b>gende</b>."},
+17:{w:"nd",t:"Konjunktion",x:"<b>steigende Mieten und fehlender Wohnraum</b>. 'und' menghubungkan dua unsur yang menjadi akibat."},
+18:{w:"raum",t:"Wortschatz",x:"Kata lengkapnya <b>Wohnraum</b>. <b>fehlender Wohnraum</b> berarti kurangnya ruang/tempat tinggal."},
+19:{w:"rsität",t:"Nomen",x:"Kata lengkapnya <b>Universität</b>. Setelah 'Unive' diperlukan <b>rsität</b>."},
+20:{w:"ie",t:"Artikel",x:"<b>die Studentenvertretung</b>. 'Studentenvertretung' feminin, sehingga artikelnya <b>die</b>."}
+};
+
+const vocab=[
+{w:"Wohnungssituation",q:"Apa arti <b>Wohnungssituation</b>?",o:["situasi tempat tinggal","situasi kampus","harga makanan","transportasi"],a:0,e:"Wohnung = tempat tinggal; Situation = situasi."},
+{w:"drastisch",q:"Apa arti <b>drastisch</b> dalam 'drastisch verschlechtert'?",o:["secara drastis/tajam","secara perlahan","secara kebetulan","sedikit"],a:0,e:"drastisch menunjukkan perubahan yang sangat kuat/besar."},
+{w:"zweitbeliebtesten",q:"Apa arti <b>zweitbeliebtesten</b>?",o:["paling populer kedua","paling mahal kedua","paling kecil kedua","paling baru kedua"],a:0,e:"zweit- = kedua dan beliebt = populer."},
+{w:"sich bewerben",q:"Apa arti <b>sich um einen Studienplatz bewerben</b>?",o:["mendaftar/melamar tempat kuliah","membayar kuliah","membatalkan kuliah","mengajar di kampus"],a:0,e:"sich um etwas bewerben = melamar/mendaftar untuk sesuatu."},
+{w:"Wohnraum",q:"Apa arti <b>Wohnraum</b>?",o:["ruang/tempat tinggal","ruang kelas","kantor","ruang organisasi"],a:0,e:"Wohnraum berarti ruang atau tempat yang tersedia untuk dihuni."},
+{w:"Entspannung",q:"Apa arti <b>Entspannung</b> dalam konteks teks?",o:["pelonggaran/perbaikan keadaan","kenaikan harga","pendaftaran","persaingan"],a:0,e:"eine Entspannung berarti keadaan menjadi lebih longgar/mereda."}
+];
+
+let quizQuestions=[];
+function submitCTest(){
+ const ins=document.querySelectorAll("#ctest input");let c=0;
+ ins.forEach(i=>{i.parentElement.classList.remove("correct","wrong");if(i.value.trim().toLowerCase()===i.dataset.answer.toLowerCase()){c++;i.parentElement.classList.add("correct")}else i.parentElement.classList.add("wrong")});
+ const total=ins.length,p=Math.round(c/total*100),r=document.getElementById("result");
+ r.style.display="block";r.innerHTML=`🌟 <b>${c}/${total}</b> benar (${p}%). ${c===total?"🎉 Alles richtig!":"Scroll ke bawah untuk melihat pembahasan setiap bagian."}`;
+ showExplanations(ins);buildQuiz();
+ document.getElementById("explanationCard").style.display="block";document.getElementById("quizCard").style.display="block";
+}
+function showExplanations(ins){
+ const box=document.getElementById("explanations");box.innerHTML="";
+ ins.forEach(i=>{let id=+i.dataset.id,ok=i.parentElement.classList.contains("correct"),e=explanations[id],d=document.createElement("div");d.className="explain "+(ok?"correct":"wrong");d.innerHTML=`<span class="tag">${ok?"✅ Benar":"❌ Perlu dipahami"}</span><h3>${id}. ${e.w}</h3><p><b>Kategori:</b> ${e.t}</p><p>${e.x}</p>`;box.appendChild(d)})
+}
+function buildQuiz(){
+ quizQuestions=vocab.slice(0,Math.min(5,vocab.length));let c=document.getElementById("quizContainer");c.innerHTML="";
+ quizQuestions.forEach((q,i)=>{let d=document.createElement("div");d.className="q";d.innerHTML=`<b>${i+1}. ${q.q}</b>${q.o.map((o,j)=>`<button class="option" onclick="pick(${i},${j},this)">${String.fromCharCode(65+j)}. ${o}</button>`).join("")}`;c.appendChild(d)})
+}
+function pick(q,a,b){let box=document.querySelectorAll(".q")[q];box.querySelectorAll(".option").forEach(x=>x.classList.remove("selected"));b.classList.add("selected");b.dataset.choice=a}
+function checkQuiz(){
+ let score=0;document.querySelectorAll(".q").forEach((q,i)=>{let bs=q.querySelectorAll(".option"),s=q.querySelector(".selected");bs.forEach(b=>b.classList.remove("correct","wrong"));if(s){let a=+s.dataset.choice;if(a===quizQuestions[i].a){score++;s.classList.add("correct")}else{s.classList.add("wrong");bs[quizQuestions[i].a].classList.add("correct")}}else bs[quizQuestions[i].a].classList.add("correct")});
+ let r=document.getElementById("quizResult");r.style.display="block";r.innerHTML=`🧠 Skor: <b>${score}/${quizQuestions.length}</b> ${score===quizQuestions.length?"🎉 Perfekt!":"✨ Pelajari lagi kosakata yang masih salah."}`
+}
+function resetCTest(){
+ document.querySelectorAll("#ctest input").forEach(i=>{i.value="";i.parentElement.classList.remove("correct","wrong")});
+ ["result","explanations","quizContainer","quizResult"].forEach(id=>{let e=document.getElementById(id);e.style.display=id==="result"||id==="quizResult"?"none":"";if(id!=="result"&&id!=="quizResult")e.innerHTML=""});
+ document.getElementById("explanationCard").style.display="none";document.getElementById("quizCard").style.display="none";window.scrollTo({top:0,behavior:"smooth"})
+}
+</script>
+</body>
+</html>
